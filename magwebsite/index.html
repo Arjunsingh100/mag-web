@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="magproject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <img
+            src="./magimage/logos_2x-e385160dbd01e36a8d63d91938791184292305a2df166640baee0f7be3c9b481copy.png">
+        <button>Buy now</button>
+    </header>
+    <nav>
+        <div>
+            <p>THE</p>
+            <h2>MAG</h2>
+        </div>
+        <ul class="sub-nav">
+            <li class="dropdown1"><a href="#">HOME</a>
+                <div class="dropdown-content1">
+                    <a href="#">Home Layout 1</a>
+                    <a href="#">Home Layout 2</a>
+                    <a href="#">Home Layout 3</a>
+                    <a href="#">Home Layout 4</a>
+                    <a href="#">Home Layout 5</a>
+                    <a href="#">Home Layout 6</a>
+                    <a href="#">Home Layout 7</a>
+                    <a href="#">Home Layout 8</a>
+                    <a href="#">Home Layout 9</a>
+                    <a href="#">Home Layout 10</a>
+                </div>
+            </li>
+            <li class="dropdown1"><a href="#">FEATURES</a>
+                <div class="dropdown-content1">
+                    <a href="#">Home Layout 1</a>
+                    <a href="#">Home Layout 2</a>
+                    <a href="#">Home Layout 3</a>
+                    <a href="#">Home Layout 4</a>
+                    <a href="#">Home Layout 5</a>
+                    <a href="#">Home Layout 6</a>
+                    <a href="#">Home Layout 7</a>
+                    <a href="#">Home Layout 8</a>
+                    <a href="#">Home Layout 9</a>
+                    <a href="#">Home Layout 10</a>
+                </div>
+            </li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">BUY NOW</a></li>
+        </ul>
+        <ul>
+            <li><i class="fa-solid fa-user fa-lg" style="color: #1a1a1a;"></i></li>
+            <li><i class="fa fa-search" aria-hidden="true" style='color: rgb(56, 55, 55)'></i></li>
+            <li><i class="fa-solid fa-bag-shopping fa-lg" style="color: #1a1a1a;"></i></li>
+            <li class="dropdown " style="border-left:2px solid rgb(56, 55, 55)">
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">HOME
+                    </a>
+                    <a href="#">FEATURES</a>
+                    <a href="#">SHOP</a>
+                    <a href="#">BUY NOW</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./magimage/danny-howe-762860-unsplash_0.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <p class="paragraph">Music</p>
+                    <h5 class="fs">Become A Travel Pro In One Easy Lesson</h5>
+                    <p>Aug 24,2022, by Janos Powers</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./magimage/ethan-hoover-235936-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <p class="paragraph">Technology</p>
+                    <h5>Buying Used Eloctronic Test Equipment</h5>
+                    <p>Aug 24,2022, by Janos Powers</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./magimage/elephant-1822636_1920.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <p class="paragraph">Travel</p>
+                    <h5>How you can help stop animal abuse in the turism industry</h5>
+                    <p>Aug 24,2022, by Janos Powers</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section>
+        <article>
+            <div class="horizontalmaindiv">
+                <div class="horizontalline1">
+                    <hr>Editor's
+                    <hr>
+                </div>
+                <div class="styleeditorscontent">
+                    <div class="styleeditorscontent-div1">
+                        <h4>Style</h4>
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Aug 01,2022 by John Smith</p>
+                        <img src="./magimage/ramy-kabalan-678766-unsplash.jpg">
+                    </div>
+                    <div class="styleeditorscontent-div1">
+                        <h4>Style</h4>
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Aug 01,2022 by John Smith</p>
+                        <img src="./magimage/flaunter-com-237609-unsplash (1).jpg">
+                    </div>
+                    <div class="styleeditorscontent-div1">
+                        <h4>Style</h4>
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Aug 01,2022 by John Smith</p>
+                        <img src="./magimage/alexandru-acea-712648-unsplash (1).jpg">
+                    </div>
+                    <div class="styleeditorscontent-div1">
+                        <h4>Style</h4>
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Aug 01,2022 by John Smith</p>
+                        <img src="./magimage/young-woman-1745173_1920.jpg">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="wrap-article-class">
+                <div class="lifestylediv">
+                    <div class="horizontalline2">
+                        <hr>
+                        <p>Lifestyle</p>
+                        <hr>
+                    </div>
+                    <div class="lifestylecards">
+                        <img src="./magimage/toa-heftiba-972541-unsplash (1).jpg">
+                        <p>Fashion</p>
+                        <h2>15 things that instantly makes you look more put together</h2>
+                        <h6>Sep 4, 2022 by Alice Salazar</h6>
+                    </div>
+                    <div class="lifestylecards" style="order: 3;">
+                        <img src="./magimage/young-woman-1745173_1920.jpg">
+                        <p>Style</p>
+                        <h2>Packing list: Your ultimate summer gateway guide</h2>
+                        <h6>Aug 4, 2022 by Della Zeminez</h6>
+                    </div>
+                    <div class="lifestyle-render-main-div">
+                        <div class="lifestylecards-renderdiv">
+                            <img src="./magimage/render-1477041.jpg">
+                            <div style="line-height: 5px;">
+                                <p>Style</p>
+                                <h5 style="margin-left: 0px
+                                ;">10 of the world's most Insenely Luxurious HOuses</h5>
+                                <h6 style="margin-left: 0px;">Aug 10, 2022 by John Smith</h6>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="lifestylecards-renderdiv">
+                            <img src="./magimage/beautiful-1844724_1920.jpg">
+                            <div style="line-height: 5px;">
+                                <p>Style</p>
+                                <h5 style="margin-left: 0px
+                                ;">Outfit equations to wake up your summer bardrobe</h5>
+                                <h6 style="margin-left: 0px;">Aug 9, 2022 by Alice Salazar</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lifestylecards apartment" Style="order:5">
+                        <img src="./magimage/apartment-2094666_1920.jpg">
+                        <p>Interior</p>
+                        <h2>100+ ideas about luxury Interior design in one place</h2>
+                        <h6>Aug 8, 2022 by Della Jimenez</h6>
+                    </div>
+                    <div class="lifestylecards-renderdiv flaunter" style="order:6">
+                        <img src="./magimage/flaunter-com-237609-unsplash.jpg">
+                        <div>
+                            <p>Fashion</p>
+                            <h5 style="margin-left: 0px
+                            ;">Fashion trends to lookout for this year</h5>
+                            <h6 style="margin-left: 0px;">Aug 5, 2022 by Jason Power</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="technologymaindiv">
+                    <div class="horizontalline3">
+                        <hr>
+                        <p>Technology</p>
+                        <hr>
+                    </div>
+                    <div class="styletechnologydiv">
+                        <div class="technologycard1">
+                            <p>Technology</p>
+                            <h2>Choosing the Best Audio Player Software For Your Computer</h2>
+                            <h6>Aug 19, 2022 by John Smith</h6>
+                            <img src="./magimage/ipad-605439_1920 (1).jpg">
+                        </div>
+                        <div class="style-technology-card3">
+                            <img src="./magimage/ethan-hoover-235936-unsplash (1).jpg">
+                            <p>Technology</p>
+                            <h2>Buying Used Eloctronic Test Equipment</h2>
+                            <h6>Aug 5,2022 by Jonh Smith</h6>
+                        </div>
+                        <div class="style-technology-card3">
+                            <img
+                                src="./magimage/alexandru-acea-712648-unsplash (1).jpg">
+                            <p>Technology</p>
+                            <h2>Dealing with Technology Sunpord 10 Useful Tips</h2>
+                            <h6>Aug 5,2022 by Jonh Smith</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="stylemusicmaindiv">
+                    <div class="horizontalline4">
+                        <hr>
+                        <p>Music</p>
+                        <hr>
+                    </div>
+                    <div class="style-music-div">
+                        <div class="lifestylecards-renderdiv">
+                            <img src="./magimage/girl-1848949_1920 (3).jpg">
+                            <div style="line-height: 5px;">
+                                <p>Music</p>
+                                <h5>Why artist no longer need hit singles to release their albums</h5>
+                                <h6 style="margin-left: 0px;">Aug 10, 2022 by Alice Salazar</h6>
+                            </div>
+                        </div>
+                        <div class="lifestylecards-renderdiv">
+                            <img src="./magimage/danny-howe-762860-unsplash_0 (2).jpg">
+                            <div style="line-height: 5px;">
+                                <p>Music</p>
+                                <h5>Become a Travel Pro In one Lesson</h5>
+                                <h6 style="margin-left: 0px;">Aug 10, 2022 by John Smith</h6>
+                            </div>
+                        </div>
+                        <div class="lifestylecards-renderdiv">
+                            <img src="./magimage/adult-1867535_1920.jpg">
+                            <div style="line-height: 5px;">
+                                <p>Music</p>
+                                <h5>Put Wings On Your Dreams</h5>
+                                <h6 style="margin-left: 0px;">Aug 10, 2022 by Alice Salazar</h6>
+                            </div>
+                        </div>
+                        <div class="lifestylecards-renderdiv">
+                            <img src="./magimage/guitar-756326_1920 (1).jpg">
+                            <div style="line-height: 5px;">
+                                <p>Music</p>
+                                <h5>Rock Guitar Lesson With Alfard Hoffmen</h5>
+                                <h6 style="margin-left: 0px;">Aug 10, 2022 by Raymond Lawson</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-popular-div">
+                    <div class="horizontalline5">
+                        <hr>
+                        <p>Popular</p>
+                        <hr>
+                    </div>
+                    <div class="lifestylecards-renderdiv">
+                        <img src="./magimage/toa-heftiba-972541-unsplash (2).jpg">
+                        <div style="line-height: 5px;">
+                            <p>Fashion</p>
+                            <h5 style="margin-left: 0px;">15 Things that instantly make you look more put together</h5>
+                            <h6 style="margin-left: 0px;">Aug 10, 2022 by Alice Salazar</h6>
+                        </div>
+                    </div>
+                    <div class="lifestylecards-renderdiv">
+                        <img src="./magimage/girl-1848949_1920 (3).jpg">
+                        <div style="line-height: 5px;">
+                            <p>Music</p>
+                            <h5 style="margin-left: 0px;">Why artist no longer need hit singles to release their albums
+                            </h5>
+                            <h6 style="margin-left: 0px;">Aug 10, 2022 by Alice Salazar</h6>
+                        </div>
+                    </div>
+                    <div class="lifestylecards-renderdiv">
+                        <img src="./magimage/danny-howe-762860-unsplash_0 (2).jpg">
+                        <div style="line-height: 5px;">
+                            <p>Music</p>
+                            <h5 style="margin-left: 0px;">Become a Travel Pro in One Easy Lesson</h5>
+                            <h6 style="margin-left: 0px;">Aug 10, 2022 by Raymond Lawson</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="style-latest-main-div1">
+                <div class="style-latest-main-div0">
+                    <div class="style-latest-main-div">
+                        <div class="horizontalline6">
+                            <hr>
+                            <p>Latest</p>
+                            <hr>
+                        </div>
+                        <div class="style-latest-item1">
+                            <img src="./magimage/toa-heftiba-972541-unsplash (1).jpg">
+                            <p style="margin-top: 20px;">Fashion</p>
+                            <h2>15 things that you make instantly look more put together</h2>
+                            <h6>Aug 12, 2022 by Alice Salazar</h6>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quis dignissimos?
+                                Ea,
+                                modi illum!</h5>
+                        </div>
+                        <div class="style-latest-item1">
+                            <img src="./magimage/girl-1848949_1920.jpg">
+                            <p style="margin-top: 20px;">Music</p>
+                            <h2>Why artist No Longer Need Hit Singles To Release Albumb</h2>
+                            <h6>Aug 25, 2022 by Alice Salazar</h6>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quis dignissimos?
+                                Ea,
+                                modi illum!</h5>
+                        </div>
+                        <div class="style-latest-item1">
+                            <img src="./magimage/danny-howe-762860-unsplash_0 (1).jpg">
+                            <p style="margin-top: 20px;">Music</p>
+                            <h2>Become a Travel Pro In One Lesson</h2>
+                            <h6>Aug 24, 2022 by Raymond Lawson/h6>
+                                <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quis
+                                    dignissimos?
+                                    Ea, modi illum!</h5>
+                        </div>
+                        <div class="style-latest-item1">
+                            <img src="./magimage/young-woman-1745173_1920 (1).jpg">
+                            <p style="margin-top: 20px;">Style</p>
+                            <h2>Packing List: Your ultimate Summer Gateway guide</h2>
+                            <h6>Aug 23, 2022 by Della Jimenez</h6>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quis dignissimos?
+                                Ea,
+                                modi illum!</h5>
+                        </div>
+                        <div class="style-latest-item1">
+                            <img src="./magimage/rebe-adelaida-293711-unsplash_0.jpg">
+                            <p style="margin-top: 20px;">Travel</p>
+                            <h2>ultimate guide to travel: Tips,costs, Itenararies, and Favorites</h2>
+                            <h6>Aug 22, 2022 by Alice Salazar</h6>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quis dignissimos?
+                                Ea,
+                                modi illum!</h5>
+                        </div>
+                        <div class="style-latest-item1">
+                            <img src="./magimage/food-1631727_1280_0.jpg">
+                            <p style="margin-top: 20px;">Food and Drinks</p>
+                            <h2>Pan Fried Fish Souse Chicken Wings With Shishito Peppers</h2>
+                            <h6>Aug 21, 2022 by Jason Powers</h6>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quis dignissimos?
+                                Ea,
+                                modi illum!</h5>
+                        </div>
+                        <div class="style-latest-item1">
+                            <img src="./magimage/rodrigo-ardilha-74664-unsplash.jpg">
+                            <p style="margin-top: 20px;">Travel</p>
+                            <h2>How to plan a trip to a place you no nothing about</h2>
+                            <h6>Aug 20, 2022 by Alice Salazar</h6>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quis dignissimos?
+                                Ea,
+                                modi illum!</h5>
+                        </div>
+                        <div class="style-latest-item1">
+                            <img src="./magimage/ipad-605439_1920 (2).jpg">
+                            <p style="margin-top: 20px;">Technology</p>
+                            <h2>Choosing The Best Audio Player Software For Your Computer</h2>
+                            <h6>Aug 19, 2022 by John Smith</h6>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quis dignissimos?
+                                Ea,
+                                modi illum!</h5>
+                        </div>
+                    </div>
+                    <div class="survay-form-div">
+                        <p>NEWSLETTER</p>
+                        <h2>Sing up for our Newsletters</h2>
+                        <p>Get awasome content in your inbox every week</p>
+                        <input type="email" placeholder="Email address"><br>
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="before-footer-main-div">
+            <div class="before-footer-main-div1">
+                <div class="before-footer-main">
+                    <div class="before-footer1">
+                        <p>THE</p>
+                        <h2>MAG</h2>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed minima itaque sint cumque officia
+                        natus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum dolor labore aliquam
+                        quia praesentium magni aut dolore id! Sequi quaerat illo ut.</p>
+                </div>
+                <div class="latest-main-div">
+                    <div>
+                        <hr>Latest
+                        <hr>
+                    </div>
+                    <div class="latest-child-div">
+                        <div class="latest-child-div1">
+                            <div class="latest-img-div">
+                                <img
+                                    src="./magimage/toa-heftiba-972541-unsplash (1).jpg">
+                            </div>
+                            <div>
+                                <h5>15 things that instantly make you look more put together</h5>
+                                <h6>Sep 4,2022 by Alice Salazar</h6>
+                            </div>
+                        </div>
+                        <div class="latest-child-div1">
+                            <div class="latest-img-div"><img
+                                    src="./magimage/girl-1848949_1920.jpg"></div>
+                            <div>
+                                <h5>Why artist no longer need hit singles to release their Albumb</h5>
+                                <h6>Sep 4,2022 by Alice Salazar</h6>
+                            </div>
+                        </div>
+                        <div class="latest-child-div1">
+                            <div class="latest-img-div"><img
+                                    src="./magimage/danny-howe-762860-unsplash_0 (1).jpg">
+                            </div>
+                            <div>
+                                <h5>Become a travel pro in one easy lesson</h5>
+                                <h6>Sep 4,2022 by Alice Salazar</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="before-footer-main-div3">
+                    <div>
+                        <div>
+                            <hr>TAG
+                            <hr>
+                        </div>
+                        <div class="button-group">
+                            <button>#style</button>
+                            <button>#tasty</button>
+                            <button>#traveler</button>
+                            <button>#tips</button>
+                            <button>#dinner</button>
+                            <button>#trends</button>
+                            <button>#summer</button>
+                            <button>#fun</button>
+                            <button>#tech</button>
+                            <button>#party</button>
+                            <button>#equipment</button>
+                            <button>#luxury</button>
+                            <button>#guitar</button>
+                            <button>#rock</button>
+                            <button>#residens</button>
+                            <button>#fancy</button>
+                            <button>#houses</button>
+                            <button>#chocolate</button>
+                            <button>#cookies</button>
+                            <button>#camera</button>
+                        </div>
+                    </div>
+                    <div class="search-main-div">
+                        <div>
+                            <hr>SEARCH
+                            <hr>
+                        </div>
+                        <div class="search-child-div">
+                            <input type="text" placeholder="Enter the terms you wish to search">
+                            <button>Go</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="footer-main-div">
+            <div class="footer-main-div1">
+                <h5>The MAG &copy; 2023</h5>
+            </div>
+            <div class="footer-item">
+                <li>Privacy policy</li>
+                <li>Cookies Statement</li>
+                <li>Terms of Use</li>
+                <li>Dark Theme</li>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
